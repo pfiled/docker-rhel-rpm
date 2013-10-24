@@ -6,7 +6,7 @@ cd docker-rhel-rpm
 # build docker rpm
 spectool -g -C lxc-docker lxc-docker/lxc-docker.spec 
 mock -r epel-6-x86_64 --buildsrpm --spec lxc-docker/lxc-docker.spec --sources lxc-docker --resultdir output
-mock -r epel-6-x86_64 --rebuild --resultdir output output/lxc-docker-0.6.3-2.el6.src.rpm 
+mock -r epel-6-x86_64 --rebuild --resultdir output output/lxc-docker-0.6.4-1.el6.src.rpm 
 
 # build lxc rpm
 spectool -g -C lxc lxc/lxc.spec
