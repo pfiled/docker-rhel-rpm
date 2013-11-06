@@ -1,5 +1,5 @@
 Name:           lxc-docker
-Version:        0.6.4
+Version:        0.6.5
 Release:        1%{?dist}
 Summary:        An open source project to pack, ship and run any application as a lightweight container
 
@@ -47,6 +47,9 @@ getent group %{realname} >/dev/null || groupadd -r %{realname}
 
 
 %changelog
+* Wed Nov 5 2013 Daniel Pfile <daniel@pfile.net> - 0.6.5
+- Update to 0.6.5 and switch source URL.
+
 * Thu Oct 10 2013 Brian Pitts <brian@polibyte.com> - 0.6.3-2
 - Fix names in lxc-docker spec
 
